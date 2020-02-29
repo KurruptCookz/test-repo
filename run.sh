@@ -1,8 +1,8 @@
 #/bin/bash
 
-echo "$1 is RUNNING"
+echo "$0 is RUNNING"
 
 echo "Do thing here"
 echo "and here"
 
-echo "$1 is STOPPING"
+echo "$0 is STOPPING"
