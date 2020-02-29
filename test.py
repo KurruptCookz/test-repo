@@ -1,10 +1,17 @@
 from run import add, subtract, announce
 import sys
 
+def test(expected, result):
+  if expected == result:
+      print("passed")
+  else:
+      print("failed")
+      sys.exit(1)
+
 announce("running test 'add'")
-result = add(1, 2)
-if result == 3:
-  print("passed")
-else:
-  print("failed")
-  sys.exit(1)
+
+# test add function
+test(3, add(1, 2))
+
+# test subtract method
+test(1, subtract(2,1))
