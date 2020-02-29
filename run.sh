@@ -7,8 +7,6 @@ echo "and here"
 
 echo "This is argument #1 => $1"
 
-if [[ "$1" == "andrew" ]]; then
-  echo "Hi ANDREW!"
-fi
+if [[ "$1" == "andrew" ]]; then echo "Hi Andrew"; fi
 
 echo "$0 is STOPPING"
